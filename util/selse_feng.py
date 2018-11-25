@@ -4,16 +4,17 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
 from util import log
+from config import root_path
 
 
 class CreateDriver():
     def __init__(self, brower):  # 初始化浏览器
         if brower == 'firefox' or brower == 'Firefox' or brower == 'f' or brower == 'F':
-            deriver = webdriver.Firefox()
+            deriver = webdriver.Firefox(root_path + "\\browser_driver\\geckodriver.exe")
         elif brower == 'Ie' or brower == 'ie' or brower == 'i' or brower == 'I':
-            deriver = webdriver.Ie()
+            deriver = webdriver.Ie(root_path + "\\browser_driver\\IEDriverServer.exe")
         elif brower == 'Chrome' or brower == 'chrome' or brower == 'Ch' or brower == 'ch':
-            deriver = webdriver.Chrome()
+            deriver = webdriver.Chrome(root_path + "\\browser_driver\\chromedriver.exe")
         elif brower == 'PhantomJS' or brower == 'phantomjs' or brower == 'ph' or brower == 'phjs':
             deriver = webdriver.PhantomJS()
         elif brower == 'Edge' or brower == 'edge' or brower == 'Ed' or brower == 'ed':
@@ -169,7 +170,7 @@ class CreateDriver():
         self.driver.refresh()
 
     def js(self, sprit):  # 执行js
-        self.logs.logger.info('执行js%s'%sprit)
+        self.logs.logger.info('执行js%s' % sprit)
         self.driver.execute_script(sprit)
 
     #     "document.getElementById('id').value='内容'"
@@ -201,7 +202,7 @@ class CreateDriver():
         return self.driver.get_screenshot_as_base64()  # 获取当前窗口的截图保存为一个base64编码的字符串。
 
     def wait(self, fangfa, dingwei):  # 等待
-        self.logs.logger.info('隐性等待')#在一段时间内判断网页是否加载完成
+        self.logs.logger.info('隐性等待')  # 在一段时间内判断网页是否加载完成
         self.driver.implicitly_wait((fangfa, dingwei))
 
     def accpet(self):  # 接受警告框
