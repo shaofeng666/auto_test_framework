@@ -7,12 +7,13 @@
 """
 import  os
 # =============
-# 浏览器驱动
+# 浏览器驱动 需要注意，如果浏览器启动后是空白页可能是驱动与浏览器版本不兼容
+# 参考：https://www.jianshu.com/p/921e0cea40e7
 # =============
 
 # broswer = 'Firefox'  # 测试所需要的浏览器
 broswer = 'Chrome'
-# borswer = 'ie'
+# broswer = 'ie'
 
 # =============
 # 测试报告参数
