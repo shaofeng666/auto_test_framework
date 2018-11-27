@@ -9,7 +9,7 @@
 
 ###  report存放测试报告
 ###  case存放测试用例。
-###  log_doc 存放测试过程中的测试日志
+###  logs 存放测试过程中的测试日志
 ###  suite  测试用例集
  - send_email.py 邮件发送模块
  - testsuite.py 测试用例集
