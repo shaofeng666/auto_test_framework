@@ -1,0 +1,44 @@
+[2018-11-27 21:35:03,208] - gettestdata.py - 31 - 获取数据 - INFO - 获取D:\testCase\auto_test_framework\data\case.xlsx内第1个sheet(工作表)的测试数据
+[2018-11-27 21:35:03,208] - gettestdata.py - 32 - 获取数据 - INFO - 测试数据listdata：[{'pwd': 'aaaa1111', 'suc': 'true', 'username': 'u4272320562', 'assert': '退出登录', 'id': 'login1'}, {'pwd': 'liwanlei11', 'suc': 'false', 'username': 'liwanlei', 'assert': '登录失败，请检查登录信息是否有误', 'id': 'login2'}, {'pwd': 'liwanlei', 'suc': 'false', 'username': 'liwan1789', 'assert': '登录失败，请检查登录信息是否有误', 'id': 'login3'}]
+[2018-11-27 21:35:06,882] - test_star_end.py - 17 - 初始化 - INFO - 启动
+[2018-11-27 21:35:06,902] - login_obj.py - 26 - 登陆页面对象 - INFO - 调用login()
+[2018-11-27 21:35:06,904] - selse_feng.py - 86 - 页面对象 - INFO - 打开网页[http://www.51zxw.net/login?redirect_url=http%3A%2F%2Fwww.51zxw.net%2F]
+[2018-11-27 21:35:08,456] - selse_feng.py - 152 - 页面对象 - INFO - 点击a标签：[登录]
+[2018-11-27 21:35:09,049] - selse_feng.py - 98 - 页面对象 - INFO - 在[id]为[loginStr]的元素内输入[u4272320562]
+[2018-11-27 21:35:09,529] - selse_feng.py - 98 - 页面对象 - INFO - 在[id]为[pwd]的元素内输入[aaaa1111]
+[2018-11-27 21:35:09,822] - selse_feng.py - 122 - 页面对象 - INFO - 点击[xpath]为[//*[@id="loginFrom"]/div/div[5]/button]的元素
+[2018-11-27 21:35:15,005] - selse_feng.py - 183 - 页面对象 - INFO - 获取[link_text]为[退出登录]元素的文本值
+[2018-11-27 21:35:15,794] - login_obj.py - 38 - 登陆页面对象 - INFO - 调用login()结束；返回退出登录
+[2018-11-27 21:35:15,795] - login_test.py - 23 - 登陆测试 - INFO - 断言预期结果:[退出登录]是否等于实际结果:[退出登录]
+[2018-11-27 21:35:15,795] - selse_feng.py - 201 - 页面对象 - INFO - 获取当前窗口的截图保存为一个base64编码的字符串。
+[2018-11-27 21:35:16,251] - selse_feng.py - 160 - 页面对象 - INFO - 关闭浏览器
+[2018-11-27 21:35:17,658] - test_star_end.py - 22 - 登陆测试 - INFO - 结束
+
+[2018-11-27 21:35:20,384] - test_star_end.py - 17 - 初始化 - INFO - 启动
+[2018-11-27 21:35:20,401] - login_obj.py - 26 - 登陆页面对象 - INFO - 调用login()
+[2018-11-27 21:35:20,402] - selse_feng.py - 86 - 页面对象 - INFO - 打开网页[http://www.51zxw.net/login?redirect_url=http%3A%2F%2Fwww.51zxw.net%2F]
+[2018-11-27 21:35:21,685] - selse_feng.py - 152 - 页面对象 - INFO - 点击a标签：[登录]
+[2018-11-27 21:35:22,252] - selse_feng.py - 98 - 页面对象 - INFO - 在[id]为[loginStr]的元素内输入[liwanlei]
+[2018-11-27 21:35:22,697] - selse_feng.py - 98 - 页面对象 - INFO - 在[id]为[pwd]的元素内输入[liwanlei11]
+[2018-11-27 21:35:22,936] - selse_feng.py - 122 - 页面对象 - INFO - 点击[xpath]为[//*[@id="loginFrom"]/div/div[5]/button]的元素
+[2018-11-27 21:35:28,106] - selse_feng.py - 183 - 页面对象 - INFO - 获取[xpath]为[//*[@id="loginFrom"]/div/div[7]/div]元素的文本值
+[2018-11-27 21:35:28,158] - login_obj.py - 42 - 登陆页面对象 - INFO - 调用login()结束；返回登录失败，请检查登录信息是否有误
+[2018-11-27 21:35:28,159] - login_test.py - 23 - 登陆测试 - INFO - 断言预期结果:[登录失败，请检查登录信息是否有误]是否等于实际结果:[登录失败，请检查登录信息是否有误]
+[2018-11-27 21:35:28,160] - selse_feng.py - 201 - 页面对象 - INFO - 获取当前窗口的截图保存为一个base64编码的字符串。
+[2018-11-27 21:35:28,713] - selse_feng.py - 160 - 页面对象 - INFO - 关闭浏览器
+[2018-11-27 21:35:30,010] - test_star_end.py - 22 - 登陆测试 - INFO - 结束
+
+[2018-11-27 21:35:32,710] - test_star_end.py - 17 - 初始化 - INFO - 启动
+[2018-11-27 21:35:32,724] - login_obj.py - 26 - 登陆页面对象 - INFO - 调用login()
+[2018-11-27 21:35:32,725] - selse_feng.py - 86 - 页面对象 - INFO - 打开网页[http://www.51zxw.net/login?redirect_url=http%3A%2F%2Fwww.51zxw.net%2F]
+[2018-11-27 21:35:33,939] - selse_feng.py - 152 - 页面对象 - INFO - 点击a标签：[登录]
+[2018-11-27 21:35:34,262] - selse_feng.py - 98 - 页面对象 - INFO - 在[id]为[loginStr]的元素内输入[liwan1789]
+[2018-11-27 21:35:34,491] - selse_feng.py - 98 - 页面对象 - INFO - 在[id]为[pwd]的元素内输入[liwanlei]
+[2018-11-27 21:35:34,626] - selse_feng.py - 122 - 页面对象 - INFO - 点击[xpath]为[//*[@id="loginFrom"]/div/div[5]/button]的元素
+[2018-11-27 21:35:39,765] - selse_feng.py - 183 - 页面对象 - INFO - 获取[xpath]为[//*[@id="loginFrom"]/div/div[7]/div]元素的文本值
+[2018-11-27 21:35:39,799] - login_obj.py - 42 - 登陆页面对象 - INFO - 调用login()结束；返回登录失败，请检查登录信息是否有误
+[2018-11-27 21:35:39,800] - login_test.py - 23 - 登陆测试 - INFO - 断言预期结果:[登录失败，请检查登录信息是否有误]是否等于实际结果:[登录失败，请检查登录信息是否有误]
+[2018-11-27 21:35:39,800] - selse_feng.py - 201 - 页面对象 - INFO - 获取当前窗口的截图保存为一个base64编码的字符串。
+[2018-11-27 21:35:40,371] - selse_feng.py - 160 - 页面对象 - INFO - 关闭浏览器
+[2018-11-27 21:35:42,655] - test_star_end.py - 22 - 登陆测试 - INFO - 结束
+
